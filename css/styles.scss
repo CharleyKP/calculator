@@ -1,18 +1,25 @@
 .display {
-    justify-content: right;
     height: 20vh;
     background-color: black;
     border-radius: 20px;
     margin: 2rem 1rem 3rem 1rem;
+
+
+}
+
+.fs-1 {
+    color: red;
+    margin: 1rem;
+    font-size: 3rem;
 }
 
 .calculator {
     border: solid black 2px;
-    // margin: 2em;
+
 }
 
 .key {
-    margin-bottom: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
     border-radius: 50px;
     border: 1px solid #d9d8d8;
     background: transparent;
@@ -22,16 +29,9 @@
 
 }
 
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-    .container {
-        height: 100vh;
-    }
 
-    #calculator {
-        height: 100%;
-    }
-}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {}

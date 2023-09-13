@@ -1,0 +1,23 @@
+.display {
+  justify-content: right;
+}
+
+.calculator {
+  border: solid black 2px;
+}
+
+/* 
+.key {
+    border-radius: 20px;
+
+} */
+@media (min-width: 576px) {
+  .container {
+    height: 100vh;
+  }
+  #calculator {
+    height: 100%;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

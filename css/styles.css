@@ -1,9 +1,9 @@
 .display {
   justify-content: right;
-  height: 40vh;
+  height: 20vh;
   background-color: black;
-  border-radius: 10px;
-  margin: 1rem 1rem 3rem 1rem;
+  border-radius: 20px;
+  margin: 2rem 1rem 3rem 1rem;
 }
 
 .calculator {
@@ -12,12 +12,12 @@
 
 .key {
   margin-bottom: 1rem;
-  border-radius: 30px;
+  border-radius: 50px;
   border: 1px solid #d9d8d8;
   background: transparent;
-  padding: 1rem;
-  font-size: large;
+  font-size: 1.25rem;
   text-align: center;
+  padding: 0.75em 0.75em 0.75em 0.75em;
 }
 
 @media (min-width: 576px) {

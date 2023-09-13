@@ -15,39 +15,43 @@
   <header></header>
 
   <div class="container-fluid">
-    <div class="container calculator mx-auto flex-fill" id="calculator">
+    <div class="container calculator vh-100" id="calculator">
       <div class="display">
         <p>0</p>
       </div>
       <div class="keys">
+        <div class="row justify-content-between gx-1">
+          <div class="key col" data-action="clear">AC</div>
+          <div class="key col" data-action="neg-pos">+/-</div>
+          <div class="key col" data-action="percentage">%</div>
+          <div class="key col" data-action="divide">÷</div>
+        </div>
         <div class="row justify-content-between m-2">
-          <button class="key rounded-circle col-2 p-2" data-action="clear">AC</button>
-          <button class="key rounded-circle col-2 p-2" data-action="neg-pos">+/-</button>
-          <button class="key rounded-circle col-2 p-2" data-action="percentage">%</button>
-          <button class="key rounded-circle col-2 p-2" data-action="divide">÷</button>
+          <div type="button" class="key col">7</div>
+          <div type="button" class="key col">8</div>
+          <div type="button" class="key col">9</div>
+          <div type="button" class="key col" data-action="times">x</div>
         </div>
-        <div class="row">
-          <button class="key col-3">7</button>
-          <button class="key col-3">8</button>
-          <button class="key col-3">9</button>
-          <button class="key col-3" data-action="times">x</button>
+        <div class="row justify-content-between m-2">
+          <div type="button" class="key col">4</div>
+          <div type="button" class="key col">5</div>
+          <div type="button" class="key col">6</div>
+          <div type="button" class="key col" data-action="minus">-</div>
         </div>
-        <div class="row">
-          <button class="key col-3">4</button>
-          <button class="key col-3">5</button>
-          <button class="key col-3">6</button>
-          <button class="key col-3" data-action="minus">-</button>
+        <div class="row justify-content-between m-2">
+          <div type="button" class="key col">1</div>
+          <div type="button" class="key col">2</div>
+          <div type="button" class="key col">3</div>
+          <div type="button" class="key col" data-action="plus">+</div>
         </div>
-        <div class="row">
-          <button class="key col-3">1</button>
-          <button class="key col-3">2</button>
-          <button class="key col-3">3</button>
-          <button class="key col-3" data-action="plus">+</button>
-        </div>
-        <div class="row">
-          <button class="key col-6">0</button>
-          <button class="key col-3" data-action="decimal">.</button>
-          <button class="key col-3" data-action="calculate">=</button>
+        <div class="row justify-content-between m-2">
+          <div type="button" class="key col-6" id="zero">0</div>
+          <div class="col-6 p-0">
+            <div class="row justify-content-between m-0">
+              <div type="button" class="key col" data-action="decimal">.</div>
+              <div type="button" class="key col" data-action="calculate">=</div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

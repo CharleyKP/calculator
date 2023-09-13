@@ -1,16 +1,25 @@
 .display {
   justify-content: right;
+  height: 40vh;
+  background-color: black;
+  border-radius: 10px;
+  margin: 1rem 1rem 3rem 1rem;
 }
 
 .calculator {
   border: solid black 2px;
 }
 
-/* 
 .key {
-    border-radius: 20px;
+  margin-bottom: 1rem;
+  border-radius: 30px;
+  border: 1px solid #d9d8d8;
+  background: transparent;
+  padding: 1rem;
+  font-size: large;
+  text-align: center;
+}
 
-} */
 @media (min-width: 576px) {
   .container {
     height: 100vh;

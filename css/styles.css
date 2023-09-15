@@ -43,8 +43,38 @@ body {
   }
   .calculator {
     height: 100%;
-    width: 100%;
+    min-width: 100%;
     margin: 0;
+  }
+}
+@media (min-width: 576px) {
+  .key {
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    font-size: 1rem;
+  }
+  .keys {
+    margin-top: 5rem;
+    height: 70vh;
+  }
+  .calculator {
+    height: 100%;
+    margin: 0;
+    min-width: 100%;
+  }
+}
+@media (min-width: 768px) and (min-width: 576px) {
+  .key {
+    margin: 2rem 0.5rem 2rem 0.5rem;
+    font-size: 1rem;
+  }
+  .keys {
+    margin-top: 5rem;
+    height: 70vh;
+  }
+  .calculator {
+    height: 100%;
+    margin: 0;
+    width: 100%;
   }
 }
 

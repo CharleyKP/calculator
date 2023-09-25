@@ -14,10 +14,12 @@ body {
     border-radius: 20px;
     margin: 2rem 1rem 2rem 1rem;
 
-    h1 {
+    input {
         font-size: 15vh;
         color: white;
-        margin-right: 1rem;
+        padding: 1rem 1rem 0 1rem;
+        background-color: transparent;
+        text-align: right;
     }
 
 }
@@ -98,9 +100,14 @@ body {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-    // #calculator {
-    //     margin: 3rem 6rem 3rem 6rem;
-    // }
+    .display {
+        height: 30vh;
+        margin-bottom: 1rem8;
+    }
+
+    .keys {
+        margin-top: 1rem;
+    }
 }
 
 // X-Large devices (large desktops, 1200px and up)
